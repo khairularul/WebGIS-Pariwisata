@@ -1,0 +1,236 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: url("aset/MakassarBg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px 30px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header h1 {
+  font-size: 20px;
+  color: white;
+}
+
+nav a {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.btn-explore {
+  padding: 8px 14px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.map-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 40px 5%;
+  gap: 30px;
+  background-color: rgba(255, 255, 255, 0.1);
+  min-height: 700px;
+}
+
+.map-description {
+  flex: 1;
+  min-width: 250px;
+  max-width: 400px;
+  color: white;
+}
+
+.map-frame,
+#map2 {
+  flex: 2;
+  min-height: 650px;
+  min-width: 550px;
+  border: 2px solid white;
+}
+
+#map2 {
+  height: 650px;
+}
+
+footer {
+  position: relative;
+  background-color: #222;
+  color: #b7b5b5;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+    sans-serif;
+}
+/* ---- */
+footer .sumber {
+  width: 35%;
+  text-align: left;
+  padding-top: 40px;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(160, 157, 157, 0.5);
+}
+footer .bagian1 {
+  width: 50%;
+}
+footer .sumber h2 {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+footer .menu {
+  list-style: none;
+  padding-top: 10px;
+  padding-left: 0px;
+  margin: 0;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  font-size: 13px;
+  text-align: left;
+}
+footer .sumber .bagian2 {
+  margin-bottom: 10px;
+  width: 50%;
+  text-align: center;
+  padding: 20px;
+}
+footer .sumber .bagian2 .footer-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  font-size: 13px;
+  border-right: solid #fff;
+}
+footer .sumber .bagian2 .footer-menu li {
+  font-size: 14px;
+}
+footer .sumber .bagian2 .footer-menu li a {
+  color: #fff;
+  text-decoration: none;
+}
+footer .sumber .bagian2 .footer-menu li a:hover {
+  text-decoration: underline;
+}
+
+/* --- */
+footer .Author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 65%;
+  padding-top: 20px;
+}
+.Author .photo {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.Author .photo img {
+  border-radius: 50%;
+  width: 230px;
+  height: 230px;
+  object-position: top;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.Author .me {
+  width: 30%;
+  padding: 20px;
+}
+.Author .me h4,
+.Author .me p {
+  color: #fff;
+}
+.Author .me p {
+  font-size: 13px;
+  font-weight: bold;
+  text-align: left;
+}
+.Author .me .p2 {
+  font-size: 13px;
+  font-weight: 200;
+  text-align: left;
+  margin-top: 10px;
+  color: #aaa;
+}
+.Author .text {
+  width: 30%;
+  text-align: center;
+  padding: 20px;
+}
+
+footer .Author .footer-social-icons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+footer .Author .footer-social-icons .icon {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+footer .Author .footer-social-icons .icon:hover {
+  color: #ffffff;
+}
+
+footer .Author .bottom-footer p {
+  font-size: 14px;
+  color: #aaa;
+}
+
+footer .Author .bottom-footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer .Author .bottom-footer a:hover {
+  text-decoration: underline;
+}
+
+.legend {
+  line-height: 18px;
+  color: #555;
+}
+.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+  opacity: 0.7;
+}
+.legend img {
+  width: 14px; 
+  height: 14px;
+  float: left;
+  margin-right: 8px;
+  margin-top: 1px;
+}

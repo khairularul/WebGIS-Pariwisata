@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "Transport",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Id": 0, "Nama": "Terminal Mallengkeri", "Jenis": "Stasiun Bus", "Latitude": -5.1876371, "Longitude": 119.4402567 }, "geometry": { "type": "Point", "coordinates": [ 119.4402567, -5.1876371 ] } },
+{ "type": "Feature", "properties": { "Id": 1, "Nama": "Terminal Regional Daya Makassar", "Jenis": "Stasiun Bus", "Latitude": -5.1102817, "Longitude": 119.5079974 }, "geometry": { "type": "Point", "coordinates": [ 119.5079974, -5.1102817 ] } },
+{ "type": "Feature", "properties": { "Id": 2, "Nama": "Terminal Tamalate", "Jenis": "Stasiun Bus", "Latitude": -5.188598, "Longitude": 119.439817 }, "geometry": { "type": "Point", "coordinates": [ 119.439817, -5.188598 ] } },
+{ "type": "Feature", "properties": { "Id": 3, "Nama": "Sultan Hasanuddin International Airport", "Jenis": "Bandara Internasional", "Latitude": -5.0777069, "Longitude": 119.5493144 }, "geometry": { "type": "Point", "coordinates": [ 119.5493144, -5.0777069 ] } },
+{ "type": "Feature", "properties": { "Id": 4, "Nama": "Pelabuhan Makassar", "Jenis": "Pelabuhan", "Latitude": -5.1142761923300002, "Longitude": 119.40961821942 }, "geometry": { "type": "Point", "coordinates": [ 119.409618219423209, -5.11427619233376 ] } },
+{ "type": "Feature", "properties": { "Id": 5, "Nama": "Terminal Variasi", "Jenis": "Stasiun Bus", "Latitude": -5.1560063930100002, "Longitude": 119.44091328709 }, "geometry": { "type": "Point", "coordinates": [ 119.440913287091718, -5.156006393007188 ] } }
+]
+}

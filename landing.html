@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebGIS Pariwisata Kota Makassar</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Icon -->
+    <link href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" rel="stylesheet" />
+    <!-- Ini Link Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css"
+    />
+</head>
+<body>
+    <div class="overlay"></div>
+    <header>
+      <h1>WebGIS Pariwisata Kota Makassar</h1>
+      <nav>
+        <a href="#peta1">Peta 1</a>
+        <a href="#peta2">Peta 2</a>
+        <a href="#contact">Contact Me</a>
+        <button class="btn-explore"><a href="#explore">Explore</a></button>
+      </nav>
+    </header>
+    <section class="map-section" id="peta1">
+      <div class="map-description">
+        <h2>Deskripsi WebGIS</h2>
+        <p>
+          Ini adalah peta hasil dari QGIS2Web yang menampilkan sebaran fasilitas kesehatan di Kota
+          Makassar.
+        </p>
+      </div>
+      <iframe src="QGIS2Web/index.html" class="map-frame"></iframe>
+    </section>
+    <section class="map-section" id="peta2">
+      <div class="map-description">
+        <h2>Deskripsi WebGIS</h2>
+        <p>Ini adalah peta interaktif yang dibangun langsung menggunakan Leaflet dan JavaScript.</p>
+      </div>
+      <div id="map2"></div>
+    </section>
+    <footer id="contact">
+    <div class="sumber">
+        <div class="bagian1">
+          <h2>Sumber & Referensi</h2>
+          <ul class="menu">
+            <li class="menu-list">Data Rupabumi Digital Indonesia - BIG</li>
+            <li class="menu-list">Data Persil Bangunan - Open Building</li>
+            <li class="menu-list">Data Open Street Map</li>
+            <li class="menu-list">Data Jumlah Penduduk - BPS</li>
+          </ul>
+        </div>
+        <div class="bagian2">
+          <ul class="footer-menu">
+            <li class="footer_menu_list"><a href="#peta1">Peta 1</a></li>
+            <li class="footer_menu_list"><a href="#peta2">Peta 2</a></li>
+            <li class="footer_menu_list"><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+    </div>
+    <div class="Author">
+        <div class="photo">
+          <img src="aset/Author.png" alt="Foto Profil" />
+        </div>
+        <div class="me">
+          <h4>Author :</h4>
+          <p>Khairul Anam.</p>
+          <p class="p2">
+            Geography Information Science Student | GIS, Cartography, Remote Sensing, and Web
+            Developing Enthusiast
+          </p>
+        </div>
+        <div class="text">
+          <div class="footer-social-icons">
+            <div class="icon"><i class="uil uil-instagram"></i></div>
+            <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+            <div class="icon"><i class="uil uil-whatsapp"></i></div>
+            <div class="icon"><i class="uil uil-github-alt"></i></div>
+          </div>
+          <div class="bottom-footer">
+            <p>
+              Copyright &copy;
+              <a href="#explore" style="text-decoration: none">Khairulanam</a> - All rights reserved
+            </p>
+          </div>
+        </div>
+    </div>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
